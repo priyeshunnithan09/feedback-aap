@@ -1,0 +1,33 @@
+/* Write your CSS code here. */
+.app-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 70%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 40px;
+  }
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0f172a;
+  font-family: 'Roboto';
+  text-align: center;
+}
